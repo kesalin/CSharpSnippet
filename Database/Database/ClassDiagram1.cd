@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Database.Core.DatabaseFactory" Collapsed="true">
+    <Position X="2" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\DatabaseFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Database.Core.MySqlDatabase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwEAAACAgIAEAACAAAQAAAAAAAAAIACAAECCEACA=</HashCode>
+      <FileName>Core\MySqlDatabase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.266" />
+  </Class>
+  <Class Name="Database.Core.OleDatabase" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwEAAACAgIAEAACAAAQAAAAAAAAAIACAAECCEACA=</HashCode>
+      <FileName>Core\OleDatabase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.249" />
+  </Class>
+  <Class Name="Database.Core.OracleDatabase" Collapsed="true">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwEAAACAgIAEAACAAAQAAAAAAAAAIACAAECCEACA=</HashCode>
+      <FileName>Core\OracleDatabase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.291" />
+  </Class>
+  <Class Name="Database.Core.SqlServerDatabase" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwEAAACAgIAEAACAAAQAAAAAAAAAIACAAECCEACA=</HashCode>
+      <FileName>Core\SqlServerDatabase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.259" />
+  </Class>
+  <Class Name="Database.Utility.DatabaseHelper" Collapsed="true">
+    <Position X="2" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICBABQAgAAAAAAAAAIAAAAAAAABAAgAAAAA=</HashCode>
+      <FileName>Utility\DatabaseHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Database.Core.IDatabase">
+    <Position X="4.5" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAQEAAACAgIAEAAAAAAAAAAAAAAAAAACAAACCEACA=</HashCode>
+      <FileName>Core\IDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Database.Core.DatabaseType" Collapsed="true">
+    <Position X="2" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAACAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\DatabaseDefines.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>
